@@ -1,0 +1,57 @@
+ .im-expression {
+    width: 360px;
+    padding: 15px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    position: absolute;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; }
+    .im-expression:after, .im-expression:before {
+      content: "";
+      margin-left: -6px;
+      border: 8px solid transparent;
+      position: absolute;
+      left: 24px;
+      top: 100%; }
+    .im-expression:after {
+      margin-top: -1px;
+      border-top-color: #FFF; }
+    .im-expression:before {
+      margin-top: 0;
+      border-top-color: #d8d8d8; }
+    .im-expression .item {
+      overflow: hidden; display: none;min-height: 144px;}
+      .im-expression .item.active{display: block;}
+      .im-expression .item img{width: 100%;height: 100%;}
+    .im-expression .face {
+      width: 24px;
+      height: 24px;
+      float: left;
+      padding: 6px;
+      margin-right: -1px;
+      margin-bottom: -1px;
+      border-right: 1px solid #f2f2f2;
+      border-bottom: 1px solid #f2f2f2; }
+	  .im-expression .face img{
+		  width:24px;
+		  height:24px;}
+    .im-expression .num {
+      margin-top: 24px;
+      text-align: center; }
+      .im-expression .num span {
+        width: 8px;
+        height: 8px;
+        margin-left: 3px;
+        margin-right: 3px;
+        display: inline-block;
+        background-color: #f3f3f3;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px; }
+        .im-expression .num span.active {
+          background-color: #cacaca; }

@@ -1,0 +1,9 @@
+  .im-chat .im-title {
+      padding-top: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #d8d8d8;
+  }
+  .im-chat .im-title h2 {
+    line-height: 24px;
+    text-align: center;
+  }

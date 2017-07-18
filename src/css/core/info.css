@@ -1,0 +1,103 @@
+.im-myinfo {
+    color: #fff;
+    padding: 25px 20px 25px 70px;
+    background-color: #252525;
+    position: relative;
+}
+
+.im-myinfo .im-face {
+    left: 20px;
+    top: 25px;
+}
+
+.im-myinfo .im-name {
+    height: 40px;
+    padding-right: 40px;
+}
+
+.im-myinfo .im-name h3 {
+    color: #fff;
+    line-height: 40px;
+}
+
+
+/*左侧我的信息 End*/
+
+.im-close-sound {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+
+.im-close-sound .im-icon {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -80px;
+}
+
+.im-close-sound .im-icon-hover {
+    background-position: -40px -80px;
+}
+
+
+/*关闭声音 End*/
+
+.im-face {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.im-face img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*头像大小40px*/
+
+.im-name {
+    height: 22px;
+    line-height: 22px;
+    position: relative;
+}
+
+.im-name h3 {
+    width: 115px;
+    color: #000;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    empty-cells: show;
+}
+
+.im-name h3 small {
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 2px 2px 0;
+    border: 1px solid #f95353;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.im-name h3.red {
+    color: #f95353;
+}
+
+.im-name .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

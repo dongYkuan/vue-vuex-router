@@ -1,0 +1,260 @@
+
+/*聊天时间 End*/
+
+.im-chat-time {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .im-chat-time span {
+    min-width: 28px;
+    height: 20px;
+    color: #c5c5c5;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: #e9e9e9;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px; }
+
+.im-chat-user {
+  padding-left: 80px;
+  padding-right: 30px;
+  padding-bottom: 6px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+  zoom: 1; }
+  .im-chat-user .im-face {
+    left: 30px;
+    top: 0; }
+  .im-chat-user .im-name {
+    color: #b2b2b2; }
+  .im-chat-user .chat-info {
+    margin-top: 2px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative; }
+  .im-chat-user .info-box {
+    float: left;
+    position: relative; }
+  .im-chat-user .info-load,
+  .im-chat-user .info-fail {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 5px; }
+    .im-chat-user .info-load .im-gif,
+    .im-chat-user .info-fail .im-gif {
+      width: 28px;
+      height: 28px;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: left top; }
+  .im-chat-user .info-load .im-gif {
+    background-image: url(../../images/im-gif1.gif); }
+  .im-chat-user .info-fail .im-gif {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplNjNkYTc2NS01NjRiLTQzNjItODI3YS0wYWI2YjNmYmFhNzAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDUyRDNDRTdBN0JDMTFFNkFFRTJCNEY0Q0M0MDdBMTciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDUyRDNDRTZBN0JDMTFFNkFFRTJCNEY0Q0M0MDdBMTciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpmNzQ3YTUxZS03Mjc2LTRiYmQtOGIyZi1jM2VlOWE3MDBjNTciIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpkNWQ3MDI3Zi1mMDI3LTExNzktOGE2Mi1kYTA3ZTAyMDBiMDgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7R86V4AAABH0lEQVR42mL8//8/Az0B46iFw9PCXyEhVDGcbc0aDDEmEvRrAXEfEF8H4h9QfA0qpkWsIcRYyAbEU4D4MhAXArEGELNDsSZUDCQ3A4g5CRnGQoRlW4HYhQiHpwOxKhB7gmKFXB/2E2EZMnCCBjFZQaoNdTXWxIAtQUBBBlQvyRamADEzGYmTGaqXZAs9KMgRHuRYqESBhUqUZAtywC9yssU9aJ4jpyR6SI4Pd+ArsvCkUhDYQ46Fc4H4LxnBCdIzh5wgvQLEM4E4i8QgnQnVS1aiKcQXPFjAPqgesgtvUGrzBuKpQPwPj7p/UJ/54EuhxGYLkAE5QKwHxBOB+CYQ/wbir0B8FSqmDy3SvlNaWyADkOEFo22aUQvpbiFAgAEA89hZPsBNiqkAAAAASUVORK5CYII="); }
+  .im-chat-user .info-txt,
+  .im-chat-user .info-other {
+    max-width: 476px;
+    color: #000;
+    line-height: 24px;
+    padding: 6px 14px 2px 10px;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-all;
+    border: 1px solid #fff;
+    background-color: #fff;
+    -webkit-border-radius: 0 12px 12px 12px;
+    -moz-border-radius: 0 12px 12px 12px;
+    -ms-border-radius: 0 12px 12px 12px;
+    -o-border-radius: 0 12px 12px 12px;
+    border-radius: 0 12px 12px 12px; }
+    .im-chat-user .info-txt .link,
+    .im-chat-user .info-other .link {
+      text-decoration: underline; }
+    .im-chat-user .info-txt img,
+    .im-chat-user .info-other img {
+      width: 20px;
+      vertical-align: -5px; }
+  .im-chat-user .info-other {
+    max-width: none;
+    width: 320px;
+    padding: 0;
+    border-color: #e9e8e5; }
+    .im-chat-user .info-other .topinfo {
+      height: 74px;
+      overflow: hidden;
+      padding: 12px 10px 0 80px;
+      position: relative; }
+    .im-chat-user .info-other .img {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      left: 10px;
+      top: 15px; }
+    .im-chat-user .info-other .tit {
+      height: 40px;
+      line-height: 20px; }
+    .im-chat-user .info-other .tips {
+      color: #b7b7b7;
+      font-size: 12px;
+      line-height: 1;
+      padding: 4px 5px;
+      background-color: #f3f3f3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      empty-cells: show;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px; }
+    .im-chat-user .info-other .price {
+      color: #e60039;
+      font-size: 16px; }
+      .im-chat-user .info-other .price small {
+        font-size: 12px;
+        margin-right: -4px; }
+    .im-chat-user .info-other .order-r {
+      padding-top: 10px;
+      line-height: 20px; }
+      .im-chat-user .info-other .order-r span {
+        color: #999; }
+        .im-chat-user .info-other .order-r span.red {
+          color: #e60039; }
+    .im-chat-user .info-other .botinfo {
+      height: 24px;
+      color: #b7b7b7;
+      font-size: 12px;
+      line-height: 24px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-top: 1px solid #e9e8e5; }
+    .im-chat-user .info-other .txt {
+      float: left;
+      padding-right: 12px; }
+    .im-chat-user .info-other .num {
+      float: left; }
+    .im-chat-user .info-other .date {
+      float: right; }
+  .im-chat-user .info-img,
+  .im-chat-user .info-video {
+    overflow: hidden;
+    border: 1px solid #e9e8e5;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-border-radius: 0 12px 12px 12px;
+    -moz-border-radius: 0 12px 12px 12px;
+    -ms-border-radius: 0 12px 12px 12px;
+    -o-border-radius: 0 12px 12px 12px;
+    border-radius: 0 12px 12px 12px; }
+    .im-chat-user .info-img img,
+    .im-chat-user .info-video img {
+      max-width: 320px;
+      min-height: 320px; }
+    .im-chat-user .info-img .im-play,
+    .im-chat-user .info-img .im-doubt,
+    .im-chat-user .info-video .im-play,
+    .im-chat-user .info-video .im-doubt {
+      width: 78px;
+      height: 78px;
+      overflow: hidden;
+      margin-top: -39px;
+      margin-left: -39px;
+      background: url(../../images/im-icon2.png) no-repeat 0 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1; }
+    .im-chat-user .info-img .im-doubt,
+    .im-chat-user .info-video .im-doubt {
+      background-position: left bottom; }
+    .im-chat-user .info-img .im-bot,
+    .im-chat-user .info-video .im-bot {
+      height: 22px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 10px 10px 0;
+      background: url(../../images/im-bot.png) repeat-x left bottom;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      .im-chat-user .info-img .im-bot .fl,
+      .im-chat-user .info-video .im-bot .fl {
+        float: left; }
+      .im-chat-user .info-img .im-bot .fr,
+      .im-chat-user .info-video .im-bot .fr {
+        float: right; }
+  .im-chat-user .im-voice {
+    min-width: 55px;
+    max-width: 175px;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    padding: 6px 10px 2px 15px;
+    margin: -6px -14px -2px -10px; }
+    .im-chat-user .im-voice .im-gif {
+      width: 20px;
+      height: 20px;
+      float: left;
+      background: url(../../images/im-icon.png) no-repeat 0 -120px; }
+    .im-chat-user .im-voice small {
+      float: right;
+      font-style: normal; }
+    .im-chat-user .im-voice.active .im-gif {
+      background: url(../../images/im-gif4.gif) no-repeat left top; }
+
+/*对方发送 End*/
+.imChatMe {
+  padding-left: 30px;
+  padding-right: 80px; }
+  .imChatMe .im-face {
+    left: auto;
+    right: 30px; }
+  .imChatMe .info-box {
+    float: right;
+    padding-left: 38px; }
+  .imChatMe .info-txt {
+    color: #fff;
+    border-color: #53ac8c;
+    background-color: #30c48c; }
+    .imChatMe .info-txt .link {
+      color: #fff; }
+  .imChatMe .info-txt,
+  .imChatMe .info-img,
+  .imChatMe .info-video,
+  .imChatMe .info-other {
+    -webkit-border-radius: 12px 0 12px 12px;
+    -moz-border-radius: 12px 0 12px 12px;
+    -ms-border-radius: 12px 0 12px 12px;
+    -o-border-radius: 12px 0 12px 12px;
+    border-radius: 12px 0 12px 12px; }
+  .imChatMe .im-voice {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 15px; }
+    .imChatMe .im-voice .im-gif {
+      float: right;
+      background: url(../../images/im-icon.png) no-repeat -30px -120px; }
+    .imChatMe .im-voice small {
+      float: left; }
+    .imChatMe .im-voice.active .im-gif {
+      background: url(../../images/im-gif3.gif) no-repeat left top; }
+
+.im-chat-user .info-img .im-gifEmoji{
+  max-height: 64px;max-width: 64px;min-height: 10px;
+}

@@ -1,0 +1,11 @@
+ .im-wrap .im-right {
+    width: 100%;
+    height: 100%;
+  }
+  .im-chat {
+    padding-left: 271px;
+  }
+  .im-chat-bottom {
+    height: 164px;
+    padding: 10px 30px 14px;
+  }

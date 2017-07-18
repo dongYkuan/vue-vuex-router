@@ -1,0 +1,21 @@
+.im-dialog {
+  height: 28px;
+  color: #b2b2b2;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 1px;
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+  .im-dialog .im-gif {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../images/im-gif2.gif) no-repeat left top; }

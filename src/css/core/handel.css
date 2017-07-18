@@ -1,0 +1,25 @@
+
+  .im-chat-bottom .im-bar {
+    height: 30px;
+    margin-bottom: 10px; }
+    .im-chat-bottom .im-bar a {
+      float: left;
+      display: inline-block;
+      margin-right: 20px;
+      position: relative; }
+    .im-chat-bottom .im-bar .im-icon {
+      width: 30px;
+      height: 30px; }
+    .im-chat-bottom .im-bar .ipt {
+      width: 30px;
+      height: 30px;
+      opacity: 0;
+      cursor: pointer;
+      filter: alpha(opacity=0);
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .im-chat-bottom .bar-face .im-icon {
+    background-position: 0 -40px; }
+  .im-chat-bottom .bar-pic .im-icon {
+    background-position: -40px -40px; }

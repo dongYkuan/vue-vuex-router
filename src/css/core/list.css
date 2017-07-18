@@ -1,0 +1,191 @@
+.im-wrap {
+  width: 960px;
+  height: 100%;
+  max-height: 656px;
+  min-height:600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #d8d8d8;
+  background-color: #f3f3f3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+	position: absolute;
+	left:50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .im-wrap .im-left {
+    width: 270px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #d8d8d8;
+    background-color: #d8d8d8;
+    position: relative; }
+  .im-wrap .im-user-list {
+    padding: 0 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 97px;
+    bottom: 5px; }
+  .im-wrap .im-right {
+    width: 100%;
+    height: 100%; }
+
+.im-chat {
+  padding-left: 271px;
+  /*对话区 End*/ }
+  .im-chat .im-title {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d8d8d8; }
+    .im-chat .im-title h2 {
+      line-height: 24px;
+      text-align: center; }
+
+.im-myinfo {
+  color: #fff;
+  padding: 25px 20px 25px 70px;
+  background-color: #252525;
+  position: relative; }
+  .im-myinfo .im-face {
+    left: 20px;
+    top: 25px; }
+  .im-myinfo .im-name {
+    height: 40px;
+    padding-right: 40px; }
+    .im-myinfo .im-name h3 {
+      color: #fff;
+      line-height: 40px; }
+
+/*左侧我的信息 End*/
+.im-close-sound {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 6px; }
+.im-close-sound .im-icon {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -80px; }
+.im-close-sound:hover .im-icon {
+  background-position: -40px -80px; } 
+
+/*关闭声音 End*/
+.im-face {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px; }
+  .im-face img {
+    width: 40px;
+    height: 40px; }
+
+/*头像大小40px*/
+.im-name {
+  height: 22px;
+  line-height: 22px;
+  position: relative; }
+.im-name h3 {
+    width: 115px;
+    color: #000;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    empty-cells: show; }
+.im-name h3 small {
+      font-size: 12px;
+      margin-left: 5px;
+      line-height: 14px;
+      padding: 0 2px;
+      display: inline-block;
+
+      border: 1px solid #f95353;
+      -webkit-border-radius: 1px;
+      -moz-border-radius: 1px;
+      -ms-border-radius: 1px;
+      -o-border-radius: 1px;
+      border-radius: 1px; }
+.im-name h3.red {
+      color: #f95353; }
+.im-name .time {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+/*用户姓名 End*/
+.im-userinfo {
+  height: 40px;
+  color: #b2b2b2;
+  font-size: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 10px 15px 10px 65px;
+  overflow: hidden;
+  background-color: #fbfbfb;
+  position: relative;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+  .im-userinfo .im-face {
+    left: 15px;
+    top: 10px; }
+  .im-userinfo .num {
+    min-width: 20px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f95353;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+    position: absolute;
+    left: 40px;
+    top: 5px; }
+  .im-userinfo .info {
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    empty-cells: show; }
+    .im-userinfo .info .red {
+      color: red; }
+  .im-userinfo.active {
+    background-color: #e3e3e3; }
+ /*  .im-userinfo:hover {
+   background-color: #f3f3f3; }
+  */
+/*用户 End*/

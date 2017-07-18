@@ -1,0 +1,26 @@
+/*暂无消息 End*/
+.im-more {
+  text-align: center;
+  margin: 15px auto 20px; }
+  .im-more a {
+    width: 112px;
+    height: 30px;
+    color: #b2b2b2;
+    font-size: 12px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #e9e9e9;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px; }
+
+/*暂无消息 End*/
+.im-no-news {
+  color: #b2b2b2;
+  text-align: center;
+  padding-top: 176px;
+  margin-bottom: 20px; }
+
+/*暂无新消息 End*/

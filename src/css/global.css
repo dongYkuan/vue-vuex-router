@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, input, button, textarea, article, aside, footer, header, nav, section, menu {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+  font-style: normal;
+  vertical-align: baseline; }
+
+body, button, input, select, textarea {
+  font-size: 14px;
+  font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif; }
+
+table {
+  border-spacing: 0;
+  vertical-align: middle;
+  border-collapse: collapse; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: 0 none;
+  vertical-align: middle; }
+
+input, textarea {
+  outline: 0;
+  resize: none; }
+  input:-webkit-autofill, textarea:-webkit-autofill {
+    background-color: #fff;
+    background-image: none; }
+
+a {
+  color: #333; }
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    outline: 0; }
+
+em {
+  font-style: normal; }
+
+body {
+  background: #f6f5ee;
+  min-width: 1200px; }
+
+.wrap-box {
+  width: 1200px;
+  margin: 0 auto; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.cursor-default {
+  cursor: default; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
+.loading-box {
+  display: table;
+  width: 100%;
+  height: 200px;
+  text-align: center; }
+  .loading-box .loading-img {
+    display: table-cell;
+    vertical-align: middle; }
+
+@font-face {
+  font-family: iconwap;
+  src: url(../../images/iconfont/iconwap.eot?161116#iefix) format("embedded-opentype"), url(../../images/iconfont/iconwap.ttf?161116) format("truetype"), url(../../images/iconfont/iconwap.woff?161116) format("woff"), url(../../images/iconfont/iconwap.svg?161116) format("svg"); }
+.icon {
+  font-family: iconwap !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+html,
+body {
+  height: 100%;
+  min-width: auto; }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #c3c3c3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+
+::-webkit-scrollbar-track {
+  background-color: transparent; }
+
+/*重置滚动条 End*/
+.im-icon {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  background: url(../images/im-icon.png) no-repeat -9999px -9999px; }
+
+#app{height: 100%;}

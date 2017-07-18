@@ -1,0 +1,14 @@
+
+.im-chat-scroll {
+  max-height: 404px;
+  min-height: 385px;
+  line-height: 22px;
+  overflow: auto;
+  border-bottom: 1px solid #d8d8d8; }
+
+/*右侧滚动 End*/
+.im-no-more {
+  color: #b2b2b2;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 20px; }
