@@ -1,6 +1,6 @@
 # workbook
 
-> A Vue.js project
+> A vue-vuex-router project
 
 ## Build Setup
 
