@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <div class="account">您输入的账号是： {{account}}</div>
-    <div><span>账号：</span><input type="text" class="name" placeholder="请输入用户名" v-model="account" @keyup='keyup'></div>
+    <div><span>账号：</span>
+    <input type="text" class="name" placeholder="请输入用户名" v-model="account" @keyup='keyup'>
+    </div>
     
     <div><span>密码：</span><input type="text" class="password" placeholder="请输入密码" v-model="pwd" @keyup='keyup'> </div>
     <div class="login" @click='login' @keyup='keyup'>登录</div>
@@ -9,7 +11,7 @@
 </template>
 
 <script>
-  import store from '../vuex';
+import store from '../vuex';
 
 export default {
   name: 'hello',
@@ -34,6 +36,9 @@ export default {
           this.login();
         }
       }
+    },
+    destroyed:function(){
+      console.log(111111111)
     }
 }
 </script>

@@ -3,6 +3,8 @@
    登录错误！请
    <!-- <a @click="back">返回</a> -->
    <router-link to="/">返回</router-link>
+   <router-link to="/">返回</router-link>
+   <router-link to="/">返回</router-link>
    重新登录~
   </div>
 </template>

@@ -13,8 +13,12 @@ import store from '../../../vuex';
 import { mapState, mapActions} from 'vuex';
 export default {
     computed: {
+      aaa:function(){
+        return store.state.listModule.comeFrom
+      },
       ...mapState({
-          comeFrom:state=>state.listModule.comeFrom
+          comeFrom:state=>state.listModule.comeFrom,
+          aaa:state=>state.listModule.aaa
       })
     },
     created:function(){

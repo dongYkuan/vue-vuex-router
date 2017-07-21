@@ -77,10 +77,10 @@ const mutations = {
         })
     }
 };
-
 const actions = {
     "getFrom": (store, data) => {
         store.commit('getFrom', data);
+        store.commit('changeUser', data);
     },
     "changeUser": (store, data) => {
         store.commit('changeUser', data);
@@ -89,7 +89,6 @@ const actions = {
         store.commit('updateLastMsg',data);
     }
 };
-
 const loginModule = {
     state,
     mutations,

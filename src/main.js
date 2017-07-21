@@ -3,8 +3,6 @@ import App from './App'
 import router from './router'
 import store from './vuex'
 
-Vue.config.productionTip = false
-
 new Vue({
   el: '#app',
   store,
